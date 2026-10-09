@@ -1,0 +1,11 @@
+{
+  "overflow_negative.accepted": false,
+  "overflow_negative.orders": 0,
+  "overflow_negative.stock": 3000000000,
+  "small.accepted": true,
+  "small.orders": 1,
+  "small.stock": 2999999997,
+  "zero.accepted": false,
+  "zero.orders": 0,
+  "zero.stock": 3000000000
+}

@@ -1,0 +1,18 @@
+{
+  "candidate_sources": "evaluation/cases/P01/candidate_sources.json",
+  "family": "pagination",
+  "id": "P01",
+  "independent_expected": "evaluation/cases/P01/expected.json",
+  "independent_inputs": "evaluation/cases/P01/inputs.json",
+  "independent_probe": "evaluation/cases/P01/IndependentProbe.java",
+  "public_expected": "fixtures/P01/public/expected.json",
+  "public_inputs": "fixtures/P01/public/inputs.json",
+  "source": "src/ShopApi.java",
+  "split": "development",
+  "visible": [
+    "src/ShopApi.java",
+    "public/PublicProbe.java",
+    "issue.md",
+    "contract.md"
+  ]
+}

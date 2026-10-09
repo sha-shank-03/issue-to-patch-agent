@@ -1,0 +1,23 @@
+{
+  "quantity_-1.accepted": false,
+  "quantity_-1.orders": 0,
+  "quantity_-1.stock": 200,
+  "quantity_0.accepted": false,
+  "quantity_0.orders": 0,
+  "quantity_0.stock": 200,
+  "quantity_1.accepted": true,
+  "quantity_1.orders": 1,
+  "quantity_1.stock": 199,
+  "quantity_100.accepted": true,
+  "quantity_100.orders": 1,
+  "quantity_100.stock": 100,
+  "quantity_101.accepted": false,
+  "quantity_101.orders": 0,
+  "quantity_101.stock": 200,
+  "quantity_5.accepted": true,
+  "quantity_5.orders": 1,
+  "quantity_5.stock": 195,
+  "quantity_99.accepted": true,
+  "quantity_99.orders": 1,
+  "quantity_99.stock": 101
+}

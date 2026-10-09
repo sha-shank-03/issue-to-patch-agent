@@ -1,0 +1,17 @@
+{
+  "invalid.accepted": false,
+  "invalid.audit": 0,
+  "invalid.orders": 0,
+  "invalid.stockA": 5,
+  "invalid.stockB": 8,
+  "single.accepted": true,
+  "single.audit": 1,
+  "single.orders": 1,
+  "single.stockA": 4,
+  "single.stockB": 8,
+  "too_many.accepted": false,
+  "too_many.audit": 0,
+  "too_many.orders": 0,
+  "too_many.stockA": 5,
+  "too_many.stockB": 8
+}

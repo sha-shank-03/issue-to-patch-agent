@@ -1,0 +1,51 @@
+[
+  {
+    "id": "second_failure",
+    "java_arguments": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "success",
+    "java_arguments": [
+      1,
+      1
+    ]
+  },
+  {
+    "id": "invalid",
+    "java_arguments": [
+      0,
+      1
+    ]
+  },
+  {
+    "id": "unequal_failure",
+    "java_arguments": [
+      3,
+      2
+    ]
+  },
+  {
+    "id": "first_failure",
+    "java_arguments": [
+      6,
+      1
+    ]
+  },
+  {
+    "id": "boundary",
+    "java_arguments": [
+      5,
+      1
+    ]
+  },
+  {
+    "id": "negative",
+    "java_arguments": [
+      -1,
+      1
+    ]
+  }
+]

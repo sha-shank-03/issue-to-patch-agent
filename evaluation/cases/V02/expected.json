@@ -1,0 +1,23 @@
+{
+  "empty.accepted": false,
+  "empty.orders": 0,
+  "empty.stock": 200,
+  "name.accepted": true,
+  "name.orders": 1,
+  "name.stock": 195,
+  "newlines.accepted": false,
+  "newlines.orders": 0,
+  "newlines.stock": 200,
+  "null.accepted": false,
+  "null.orders": 0,
+  "null.stock": 200,
+  "padded.accepted": true,
+  "padded.orders": 1,
+  "padded.stock": 195,
+  "space.accepted": false,
+  "space.orders": 0,
+  "space.stock": 200,
+  "tab.accepted": false,
+  "tab.orders": 0,
+  "tab.stock": 200
+}

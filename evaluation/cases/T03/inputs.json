@@ -1,0 +1,51 @@
+[
+  {
+    "id": "audit_failure",
+    "java_arguments": [
+      1,
+      true
+    ]
+  },
+  {
+    "id": "success",
+    "java_arguments": [
+      2,
+      false
+    ]
+  },
+  {
+    "id": "larger_failure",
+    "java_arguments": [
+      3,
+      true
+    ]
+  },
+  {
+    "id": "invalid",
+    "java_arguments": [
+      0,
+      false
+    ]
+  },
+  {
+    "id": "oversized",
+    "java_arguments": [
+      6,
+      false
+    ]
+  },
+  {
+    "id": "boundary",
+    "java_arguments": [
+      5,
+      false
+    ]
+  },
+  {
+    "id": "invalid_audit",
+    "java_arguments": [
+      -1,
+      true
+    ]
+  }
+]

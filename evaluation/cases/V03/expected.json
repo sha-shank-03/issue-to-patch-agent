@@ -1,0 +1,23 @@
+{
+  "maximum.accepted": true,
+  "maximum.orders": 1,
+  "maximum.stock": 852516353,
+  "negative.accepted": false,
+  "negative.orders": 0,
+  "negative.stock": 3000000000,
+  "overflow_negative.accepted": false,
+  "overflow_negative.orders": 0,
+  "overflow_negative.stock": 3000000000,
+  "overflow_positive.accepted": false,
+  "overflow_positive.orders": 0,
+  "overflow_positive.stock": 3000000000,
+  "overflow_zero.accepted": false,
+  "overflow_zero.orders": 0,
+  "overflow_zero.stock": 3000000000,
+  "small.accepted": true,
+  "small.orders": 1,
+  "small.stock": 2999999997,
+  "zero.accepted": false,
+  "zero.orders": 0,
+  "zero.stock": 3000000000
+}

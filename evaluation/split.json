@@ -1,0 +1,18 @@
+{
+  "dataset_version": "java-semantics-v1",
+  "development": [
+    "V01",
+    "P01",
+    "T01"
+  ],
+  "evidence_kind": "authored_candidate_calibration",
+  "held_out": [
+    "V02",
+    "V03",
+    "P02",
+    "P03",
+    "T02",
+    "T03"
+  ],
+  "live_solve_rate": null
+}

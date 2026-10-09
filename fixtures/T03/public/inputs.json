@@ -1,0 +1,16 @@
+[
+  {
+    "id": "audit_failure",
+    "java_arguments": [
+      1,
+      true
+    ]
+  },
+  {
+    "id": "success",
+    "java_arguments": [
+      2,
+      false
+    ]
+  }
+]

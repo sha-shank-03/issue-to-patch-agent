@@ -1,0 +1,30 @@
+[
+  {
+    "id": "overflow_negative",
+    "java_arguments": "new int[] {2147483647, 2147483647}"
+  },
+  {
+    "id": "small",
+    "java_arguments": "new int[] {1, 2}"
+  },
+  {
+    "id": "zero",
+    "java_arguments": "new int[] {0}"
+  },
+  {
+    "id": "overflow_positive",
+    "java_arguments": "new int[] {2147483647, 2147483647, 3}"
+  },
+  {
+    "id": "overflow_zero",
+    "java_arguments": "new int[] {2147483647, 2147483647, 2}"
+  },
+  {
+    "id": "maximum",
+    "java_arguments": "new int[] {2147483647}"
+  },
+  {
+    "id": "negative",
+    "java_arguments": "new int[] {-1}"
+  }
+]

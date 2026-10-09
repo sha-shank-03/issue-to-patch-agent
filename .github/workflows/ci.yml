@@ -1,0 +1,44 @@
+name: Offline Java semantic verification
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  offline:
+    runs-on: ${{ matrix.os }}
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix:
+        os: [ubuntu-latest, windows-latest]
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@5fda3b95a4ea91299a34e894583c3862153e4b97 # v7.0.0
+        with:
+          python-version: '3.11'
+      - uses: actions/setup-java@de7274f081f381c8f8158605e0321c36c376e2e6 # v6.0.1
+        with:
+          distribution: microsoft
+          java-version: '17'
+      - name: Runtime and immutable-input check
+        run: |
+          python --version
+          java --version
+          javac --version
+          python -m issue_to_patch doctor
+          python scripts/release_check.py
+      - name: Local provider and process contracts
+        run: python -m unittest discover -s tests/unit -v
+      - name: Full offline outcome verification
+        run: python scripts/acceptance.py --milestone all

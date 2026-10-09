@@ -1,0 +1,14 @@
+[
+  {
+    "id": "too_many",
+    "java_arguments": "new int[] {3,3}"
+  },
+  {
+    "id": "single",
+    "java_arguments": "new int[] {1}"
+  },
+  {
+    "id": "invalid",
+    "java_arguments": "new int[] {0}"
+  }
+]

@@ -1,0 +1,51 @@
+[
+  {
+    "id": "overflow_negative",
+    "java_arguments": [
+      2147483647,
+      2
+    ]
+  },
+  {
+    "id": "first",
+    "java_arguments": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "bad_size",
+    "java_arguments": [
+      0,
+      0
+    ]
+  },
+  {
+    "id": "overflow_zero",
+    "java_arguments": [
+      1073741824,
+      4
+    ]
+  },
+  {
+    "id": "short_final",
+    "java_arguments": [
+      1,
+      4
+    ]
+  },
+  {
+    "id": "past_end",
+    "java_arguments": [
+      4,
+      2
+    ]
+  },
+  {
+    "id": "negative_page",
+    "java_arguments": [
+      -1,
+      2
+    ]
+  }
+]

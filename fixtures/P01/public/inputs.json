@@ -1,0 +1,23 @@
+[
+  {
+    "id": "first",
+    "java_arguments": [
+      0,
+      3
+    ]
+  },
+  {
+    "id": "second",
+    "java_arguments": [
+      1,
+      3
+    ]
+  },
+  {
+    "id": "bad_size",
+    "java_arguments": [
+      0,
+      0
+    ]
+  }
+]

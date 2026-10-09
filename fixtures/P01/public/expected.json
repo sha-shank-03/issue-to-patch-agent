@@ -1,0 +1,16 @@
+{
+  "bad_size.accepted": false,
+  "bad_size.ids": [],
+  "first.accepted": true,
+  "first.ids": [
+    1,
+    2,
+    3
+  ],
+  "second.accepted": true,
+  "second.ids": [
+    4,
+    5,
+    6
+  ]
+}

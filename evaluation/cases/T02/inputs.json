@@ -1,0 +1,30 @@
+[
+  {
+    "id": "too_many",
+    "java_arguments": "new int[] {3,3}"
+  },
+  {
+    "id": "single",
+    "java_arguments": "new int[] {1}"
+  },
+  {
+    "id": "invalid",
+    "java_arguments": "new int[] {0}"
+  },
+  {
+    "id": "valid_duplicate",
+    "java_arguments": "new int[] {2,2}"
+  },
+  {
+    "id": "boundary",
+    "java_arguments": "new int[] {2,3}"
+  },
+  {
+    "id": "three_lines",
+    "java_arguments": "new int[] {1,1,1}"
+  },
+  {
+    "id": "oversized_line",
+    "java_arguments": "new int[] {6}"
+  }
+]

@@ -1,0 +1,33 @@
+{
+  "retrieved_at": "2026-10-08",
+  "verification": "Official release pages plus git ls-remote fixed release tags; no action/runtime downloaded or executed",
+  "actions": {
+    "actions/checkout": {
+      "tag": "v7.0.1",
+      "sha": "3d3c42e5aac5ba805825da76410c181273ba90b1",
+      "release_url": "https://github.com/actions/checkout/releases/tag/v7.0.1",
+      "license": "MIT"
+    },
+    "actions/setup-python": {
+      "tag": "v7.0.0",
+      "sha": "5fda3b95a4ea91299a34e894583c3862153e4b97",
+      "release_url": "https://github.com/actions/setup-python/releases/tag/v7.0.0",
+      "license": "MIT"
+    },
+    "actions/setup-java": {
+      "tag": "v6.0.1",
+      "sha": "de7274f081f381c8f8158605e0321c36c376e2e6",
+      "release_url": "https://github.com/actions/setup-java/releases/tag/v6.0.1",
+      "license": "MIT"
+    }
+  },
+  "runner_policy": {
+    "platforms": ["ubuntu-latest", "windows-latest"],
+    "max_parallel": 1,
+    "timeout_minutes": 15,
+    "python": "3.11",
+    "java": "17",
+    "java_distribution": "microsoft",
+    "hosted_execution": "unexecuted"
+  }
+}

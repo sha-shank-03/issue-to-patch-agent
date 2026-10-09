@@ -1,0 +1,16 @@
+[
+  {
+    "id": "all",
+    "java_arguments": [
+      0,
+      6
+    ]
+  },
+  {
+    "id": "bad_size",
+    "java_arguments": [
+      0,
+      0
+    ]
+  }
+]

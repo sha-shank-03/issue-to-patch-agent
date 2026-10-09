@@ -1,0 +1,19 @@
+{
+  "candidate_sources": "evaluation/cases/V01/candidate_sources.json",
+  "family": "validation",
+  "id": "V01",
+  "independent_expected": "evaluation/cases/V01/expected.json",
+  "independent_inputs": "evaluation/cases/V01/inputs.json",
+  "independent_probe": "evaluation/IndependentProbe.java",
+  "legacy_observations": true,
+  "public_expected": "fixtures/V01/public/expected.json",
+  "public_inputs": "fixtures/V01/public/inputs.json",
+  "source": "src/ShopApi.java",
+  "split": "development",
+  "visible": [
+    "src/ShopApi.java",
+    "public/PublicProbe.java",
+    "issue.md",
+    "contract.md"
+  ]
+}

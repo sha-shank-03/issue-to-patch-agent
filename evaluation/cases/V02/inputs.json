@@ -1,0 +1,30 @@
+[
+  {
+    "id": "null",
+    "java_arguments": "null"
+  },
+  {
+    "id": "empty",
+    "java_arguments": "\"\""
+  },
+  {
+    "id": "space",
+    "java_arguments": "\" \""
+  },
+  {
+    "id": "name",
+    "java_arguments": "\"alice\""
+  },
+  {
+    "id": "tab",
+    "java_arguments": "\"\\t\""
+  },
+  {
+    "id": "newlines",
+    "java_arguments": "\"\\r\\n\""
+  },
+  {
+    "id": "padded",
+    "java_arguments": "\" alice \""
+  }
+]

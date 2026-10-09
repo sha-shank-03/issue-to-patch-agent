@@ -1,0 +1,23 @@
+[
+  {
+    "id": "second_failure",
+    "java_arguments": [
+      2,
+      2
+    ]
+  },
+  {
+    "id": "success",
+    "java_arguments": [
+      1,
+      1
+    ]
+  },
+  {
+    "id": "invalid",
+    "java_arguments": [
+      0,
+      1
+    ]
+  }
+]

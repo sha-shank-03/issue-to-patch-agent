@@ -1,0 +1,10 @@
+{
+  "audit_failure.accepted": false,
+  "audit_failure.stockA": 5,
+  "audit_failure.stockB": 8,
+  "success.accepted": true,
+  "success.audit": 1,
+  "success.orders": 1,
+  "success.stockA": 3,
+  "success.stockB": 8
+}
