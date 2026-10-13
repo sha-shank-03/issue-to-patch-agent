@@ -1,0 +1,12 @@
+{
+  "schema_version": "u1-functions-1",
+  "mode": "local-double",
+  "model": "test/synthetic-coder",
+  "serving_provider": "test",
+  "live_enabled": false,
+  "allocation_inr": 0,
+  "automatic_inference_retries": 0,
+  "sandbox": "inert_only",
+  "note": "Synthetic protocol identity, not a real Gateway catalog model. Real Sandbox auth/image/compute requires a separate later authorization."
+}
+

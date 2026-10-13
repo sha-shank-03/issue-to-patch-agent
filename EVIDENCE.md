@@ -427,3 +427,82 @@ unexecuted. The repository is accepted for this local, reproducible MVP scope.
 All three local MVP milestones passed independent acceptance on 8 October 2026, including final documentation review. The review was executed separately from the implementation worker and included documented quickstarts, meaningful success/failure tests and direct domain-state checks. The results and limitations above remain unchanged.
 
 This source release includes application code, authored fixtures, evaluator/tests, quickstart, architecture, license/attribution and the prepared CI workflow. Private orchestration records, machine-specific paths, runtime caches and generated local runs are excluded. Offline scripted/rule/replay outcomes and local provider doubles do not establish live model quality, employer adoption or production impact. Hosted CI results are available in this repository's Actions tab after publication; historical local reports retain their original execution dates.
+
+## U1 source and pure contracts — 11 October 2026
+
+The additive `issue_to_patch_upgrade` package implements native Gateway
+function-call envelopes, finite read/search/edit/public-check tools, bounded
+accounting/events, an owned transport helper and an independent verifier of
+sealed proposals against authored simulated observations. The D01 contract
+fixture is fictional; no Apache source was downloaded. The authored journey
+consumes failed public feedback and revises, ending as `CONTRACT_COMPLETE`.
+Its independent false-fix case ends as `CONTRACT_REJECTED`. Neither status
+asserts that real Java executed or a real issue was repaired.
+
+Python 3.11.9 passed `py -3.11 -m unittest discover -s tests/upgrade_pure -v`
+with 32 tests and native exit 0 (1.953 unittest seconds). After four additional
+boundary checks and source hardening, the final pure receipt wrapper passed
+36 tests with no failures/errors, native exit 0 and 1.171 seconds elapsed.
+Every pure test prohibits subprocess creation and sockets. Recorded in-memory
+scenarios include repair, 401/402/429/503, malformed/unknown calls, premature
+finish and ambiguous response loss; separate tests reject a public-passing
+false fix and forged public records. Raw guarded events and source versions
+are retained in the private worker receipt. These are authored protocol
+observations on one fixture, with no live quality denominator.
+
+The final pure tests verified the unchanged v1 freeze SHA-256
+`14e1c6d5f476550fa308e91433e24718e9e0a53801441dc25675cfb658eea34c`
+and trust SHA-256
+`70fed424125df3b9bb02b33ede90fadb056358d5d56949ebb1cac241807fc86e`.
+The original host digest guard remains intact; novel proposal Java is kept
+as in-memory or saved review text and is never executed on Windows.
+
+At the initial source-only handoff, socket/owned-child tests, stalled
+DNS/trickle/cancel teardown, CLI end-to-end
+demos, full suites, Java builds, real Gateway requests and external sandbox
+integration were unexecuted. They required later named
+leases/assignments as applicable. No transport cleanup or real isolation
+claim is inferred from pure tests. No runtime key was read, no dependency or
+archive was downloaded, and live/VM spend was zero. Runtime usage/cost fields
+remain null where unobserved. The exact future commands and their expected
+exits are described in [the U1 guide](docs/UPGRADE_U1.md).
+
+## U1 contract acceptance — 11 October 2026
+
+Under the named U1 lease, the worker ran its six ordered commands once with
+native exits 0,0,0,0,2,3. Seven owned Windows transport tests and 59 authored
+journey assertions passed; 40 checks against saved outputs also passed. The
+stalled-DNS and trickle tests each passed the 3-second bound for a 2-second
+budget including helper teardown. No owned descendants remained afterwards;
+owned servers/pipes/threads completed their cleanup checks. Active command
+time was 6.547 seconds. The worker sampled a 116.82 MiB peak for its owned
+process tree, including the recorder; brief peaks may have been missed.
+
+Main independently accepted the bounded U1 CONTRACT milestone after 36 pure
+tests, seven transport tests, 59 journey assertions, eight reviewer commands
+with native exits 0,0,0,0,2,3,3,3, and 59 independent artifact predicates plus
+four tamper controls. Source remained unchanged throughout both batches.
+Main did not independently measure peak process memory. These results remain
+fictional protocol/sandbox observations: no Java, Commons Lang source, actual
+model or external VM executed, and no real isolation or repair is claimed.
+The original U1 source manifest and private raw receipts are retained.
+
+## U2-A connector source — 11 October 2026
+
+The additive Sandbox REST contract pins controller-selected project/team,
+image digest and expected JDK17 commands. The example leaves real pins,
+image validation and independent auth/compute authorization unset. It uses
+nonpersistent guests, deny-all egress, no ports/guest credentials, sealed
+candidate bytes, separate serial public/verifier sessions, fixed argv,
+bounded tar uploads/logs/deadlines and cleanup-only recovery without duplicate
+provisioning. V1 and U1 executable source remain unchanged.
+
+Python 3.11.9 passed the first 21 pure tests, then all 26 after adding serial
+access, cleanup-window and persisted-recovery counter/clock controls (native
+exits 0 and 0; final wrapper elapsed 0.359 seconds). Every test prohibits sockets
+and subprocess creation. Their source/response fixtures are authored; they do
+not validate a real image, account, Java execution or external isolation.
+The five new socket/helper tests and reviewer CLI batch are authored but
+unexecuted pending a U2-A lease. No archive, dependency, key/presence check,
+Java process, model call or VM/account call occurred in this slice. See
+[the Sandbox contract guide](docs/SANDBOX_U2A.md) for exact bounds and gates.

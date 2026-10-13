@@ -1,0 +1,56 @@
+{
+  "evidence": {
+    "cli_end_to_end": "not_run",
+    "domain_verified": false,
+    "generated_code_host_processes": 0,
+    "live_allocation_inr": 0,
+    "live_model_calls": 0,
+    "pure_units_passed": 36,
+    "real_sandbox_sessions": 0,
+    "socket_child_suite": "not_run"
+  },
+  "files": {
+    "EVIDENCE.md": "2293e55b31540e3815214829d8773f569c6e6b52f04eec227045678ab6cbf052",
+    "README.md": "9e3032bfc4c60580d72005b318eb77b0d4a4d97f5afb1451252b0665fc322995",
+    "config/upgrade-u1.example.json": "574680e5592e0d07f1526dcc4bf69a236510ccd58b70dd7cc2ff24176bf07e9e",
+    "docs/UPGRADE_U1.md": "35a57fd145633aeebd2056f28ea5abad3a769f165f16d8fc4d8865831800809b",
+    "issue_to_patch_upgrade/__init__.py": "e6bd43b04cefbe951082f206e1f975dac9a291527160c9e16c5e451ea68da161",
+    "issue_to_patch_upgrade/__main__.py": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7",
+    "issue_to_patch_upgrade/cli.py": "9f6a73696b8fda4e6bb3b5d834e7c65d7e1bca09692cdbabad15c4f85c71a433",
+    "issue_to_patch_upgrade/core.py": "69a922f8bf05404727f96dac8563671be23b8b7c923452c8c20fdea1a7f18e9e",
+    "issue_to_patch_upgrade/doubles.py": "bcdbcb23618d5fabc8e6fd7f98220a80c3cb9e7abbc054624e125ea059a87ff3",
+    "issue_to_patch_upgrade/events.py": "91550fb56690e8b633e46f7051eaf551422b86cabd2832f97d8f7bd3e33310c4",
+    "issue_to_patch_upgrade/fixture.py": "611f877c7d34508e39935099c3218994f28c457d007f603387a420b3da091c39",
+    "issue_to_patch_upgrade/gateway.py": "d14943856ec953157b96f0766e491608549129e6bd3d4180fa98821c69f00db0",
+    "issue_to_patch_upgrade/http_worker.py": "1ef0817f4b74234067f6f7ce8eb718137fd7348cd1ede62d79ca6aff31a35e12",
+    "issue_to_patch_upgrade/loop.py": "502e17c264540142187a3a7fe8faf0d985b9033c9eb1fd254ae17cc031246af1",
+    "issue_to_patch_upgrade/sandbox_double.py": "7f99f4f8af5d1c4db4be2a5dfbf0d719dd73d8eae2d35d6dd8eb8e14c191acbb",
+    "issue_to_patch_upgrade/tools.py": "0d53dfd51b13dc6d669623678512ccb15a5550c57026814da44e386a626f6533",
+    "issue_to_patch_upgrade/transport.py": "a98503ef35e3ccfaa29c7bb78d094d66b639fc9166782e1b28db282b98c8d5fb",
+    "issue_to_patch_upgrade/verifier.py": "b980c4befe2f0ff7a71aa204082f697565b77863bd15c0ec0f93bbf694e6d324",
+    "scripts/upgrade_acceptance.py": "b0143368284cc345eba620080e8c819c0690936312035a38d2df59a114d15940",
+    "tests/upgrade_pure/test_u1.py": "7e57c0a1d9c9c6aa0095dccdf0a2d6f1b73080b16daf183a2b26b274d503eb37",
+    "tests/upgrade_transport/blocked_dns_helper.py": "49eb5cdcaa3db1ce6d24762007846bf1348a7fc68c93a2b9618853c0de3747c4",
+    "tests/upgrade_transport/test_owned_transport.py": "34a3ba0cf63149259eca99913f3c31a45946b53e291bbee7cc530542e675e4db"
+  },
+  "manifest_self_hash": "excluded to avoid a self-reference cycle",
+  "milestone": "U1",
+  "mode": "local-double",
+  "published_v1_commit": "1954e1bef1ecfdf4c8d9e82aec2d2a2fd3898265",
+  "schema_version": 1,
+  "scope": "U1 source and pure protocols only; original v1 freeze/trust are retained unchanged",
+  "v1_protected_manifest_sha256": {
+    "evaluation/frozen.json": "14e1c6d5f476550fa308e91433e24718e9e0a53801441dc25675cfb658eea34c",
+    "evaluation/trusted.json": "70fed424125df3b9bb02b33ede90fadb056358d5d56949ebb1cac241807fc86e"
+  },
+  "versions": {
+    "code_version": "4d0184eb884bb80125c72fc1e340646208088cc7da2280b12856d1f9f4147c55",
+    "config_sha256": "a6ddb32e44005cfec99251f9a8ecd91831115c71bac2dec8e4f44a20061fac66",
+    "config_version": "u1-config-1",
+    "dataset_sha256": "6495cdb2f3e5feb8d6008c0155efe9b9e640e38d426ee679258c0f020985c803",
+    "dataset_version": "u1-protocol-double-1",
+    "package_version": "2.1-u1",
+    "prompt_sha256": "db6f22942b2c715ca611049c0bf6423295f997a1c396b913bd7450c58dd5a181",
+    "prompt_version": "u1-functions-1"
+  }
+}

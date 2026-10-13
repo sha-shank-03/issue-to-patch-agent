@@ -143,3 +143,18 @@ and same-user processes are outside the containment claim.
 See `ARCHITECTURE.md` for design/tradeoffs, `docs/PROVIDER_TESTS.md` for the local
 provider behavior matrix, and `ATTRIBUTION.md` for licenses/prior art. Original
 code, fixtures, data and documentation are fictional/authored and MIT licensed.
+
+## U1 upgrade contracts
+
+An additive U1 package implements native Gateway function-call contracts,
+finite patch tools and independent simulated-state verification with inert
+doubles. `CONTRACT_COMPLETE` is protocol evidence. The existing v1 host
+execution guard remains intact. Real model inference, remote Sandbox execution
+and the proposed Commons Lang repair remain pending. See
+[the U1 walkthrough](docs/UPGRADE_U1.md) for commands, bounds and evidence gates.
+
+U1's bounded CONTRACT milestone passed independent review on 11 October 2026.
+The additive [U2-A Sandbox REST contract](docs/SANDBOX_U2A.md) now has 26 passing
+pure tests. Its socket/helper and CLI batch awaits a lease. Real image,
+project/authentication and compute validation remain pending; no external
+Sandbox or Java execution is implied by the synthetic responses.

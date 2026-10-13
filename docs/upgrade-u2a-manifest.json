@@ -1,0 +1,121 @@
+{
+  "U1_acceptance": "Independent bounded CONTRACT review, 2026-10-11; no real Java/model/VM claim",
+  "U2A_evidence": {
+    "CLI_end_to_end": "not_run",
+    "Sandbox_project_auth_compute": "not_verified",
+    "actual_JDK17_image": null,
+    "model_calls": 0,
+    "pure_tests": 26,
+    "real_VM_sessions": 0,
+    "spend_inr": 0,
+    "transport_tests": "not_run"
+  },
+  "as_of": "2026-10-11T08:52:02.110157+00:00",
+  "files": {
+    "EVIDENCE.md": "209a2afb8b919e329a839a77f79ceebab04570982ee027fb5a4c362f01c100e3",
+    "README.md": "edd5ed5c05cafda921b47c8a0038b4b9fd22a3d865890871b031a414b1cd460d",
+    "config/sandbox-u2a.example.json": "9df3565bda49fda2f9fa342729ba871a5ce19353fe49a8647aa8179fc3f15144",
+    "config/upgrade-u1.example.json": "574680e5592e0d07f1526dcc4bf69a236510ccd58b70dd7cc2ff24176bf07e9e",
+    "docs/SANDBOX_U2A.md": "930b029dedf8e03ece60539c6549bce2a680e8be4c58e87ef0fd4b64a92e5804",
+    "docs/UPGRADE_U1.md": "5cccdab46615585bc7264482dbba3838c91a8b11d861d4617c667e4ff65cc111",
+    "docs/upgrade-u1-manifest.json": "5f85e76beca509c4d5e392c67bb89aa1458dab82d40c11a79ed6882c076b76c3",
+    "issue_to_patch_sandbox/__init__.py": "0276d83080c6a7ea8d1f65bf98ee68a10ba68a88cf9d2d0995e5e4ad58c1e5cc",
+    "issue_to_patch_sandbox/__main__.py": "865b9216f1c7a09c09a83c4263e612db8bf9e4401feec8d6cb56dd33397f5ed3",
+    "issue_to_patch_sandbox/client.py": "3ccfa830c5e544c85addf9a887dde2b60967c17b54540953877216a0d203efbf",
+    "issue_to_patch_sandbox/contract.py": "2ae5abddba70666b055f0a78236d92229b63957f3acc73d08472d72d559d52a0",
+    "issue_to_patch_sandbox/http_worker.py": "e4f76fc12ac6ba70793b0d9d5bda2f1c79aa217a69b767076e3a1d81cf9d98e4",
+    "issue_to_patch_sandbox/synthetic.py": "5b528cd8f597ffc1461deeacc95b92702ff1db691b71cd0072fac540b60955c8",
+    "issue_to_patch_sandbox/transport.py": "9daef64fd36cebc40df7c8b3fc44343fc51822e697aab95a65b8287b47037e63",
+    "issue_to_patch_sandbox/wire.py": "a406c1537f9a43b5df7d939fff7880413dd869bfda02710b545aa96f8e14eac4",
+    "issue_to_patch_upgrade/__init__.py": "e6bd43b04cefbe951082f206e1f975dac9a291527160c9e16c5e451ea68da161",
+    "issue_to_patch_upgrade/__main__.py": "76fa916e93e0ae1a6c1bb51dcc0bcf289c014e9f760a47165f8a84401ccf41d7",
+    "issue_to_patch_upgrade/cli.py": "9f6a73696b8fda4e6bb3b5d834e7c65d7e1bca09692cdbabad15c4f85c71a433",
+    "issue_to_patch_upgrade/core.py": "69a922f8bf05404727f96dac8563671be23b8b7c923452c8c20fdea1a7f18e9e",
+    "issue_to_patch_upgrade/doubles.py": "bcdbcb23618d5fabc8e6fd7f98220a80c3cb9e7abbc054624e125ea059a87ff3",
+    "issue_to_patch_upgrade/events.py": "91550fb56690e8b633e46f7051eaf551422b86cabd2832f97d8f7bd3e33310c4",
+    "issue_to_patch_upgrade/fixture.py": "611f877c7d34508e39935099c3218994f28c457d007f603387a420b3da091c39",
+    "issue_to_patch_upgrade/gateway.py": "d14943856ec953157b96f0766e491608549129e6bd3d4180fa98821c69f00db0",
+    "issue_to_patch_upgrade/http_worker.py": "1ef0817f4b74234067f6f7ce8eb718137fd7348cd1ede62d79ca6aff31a35e12",
+    "issue_to_patch_upgrade/loop.py": "502e17c264540142187a3a7fe8faf0d985b9033c9eb1fd254ae17cc031246af1",
+    "issue_to_patch_upgrade/sandbox_double.py": "7f99f4f8af5d1c4db4be2a5dfbf0d719dd73d8eae2d35d6dd8eb8e14c191acbb",
+    "issue_to_patch_upgrade/tools.py": "0d53dfd51b13dc6d669623678512ccb15a5550c57026814da44e386a626f6533",
+    "issue_to_patch_upgrade/transport.py": "a98503ef35e3ccfaa29c7bb78d094d66b639fc9166782e1b28db282b98c8d5fb",
+    "issue_to_patch_upgrade/verifier.py": "b980c4befe2f0ff7a71aa204082f697565b77863bd15c0ec0f93bbf694e6d324",
+    "scripts/sandbox_contract_acceptance.py": "d7c81464c023fcb35ff87c77d43269908c955060fb95244880f294c7dbbfe2a2",
+    "scripts/upgrade_acceptance.py": "b0143368284cc345eba620080e8c819c0690936312035a38d2df59a114d15940",
+    "tests/sandbox_pure/test_sandbox_contract.py": "e1f21f71f9ae46d6b8ec671feeb79c46d461eb145d007a4f7a2e58d2e016c751",
+    "tests/sandbox_transport/test_contract_transport.py": "bb1eb723c76cf22ddc4bb04fd71f80d230bd6cab0a3c44d16cd2c0f169b74296",
+    "tests/upgrade_pure/test_u1.py": "7e57c0a1d9c9c6aa0095dccdf0a2d6f1b73080b16daf183a2b26b274d503eb37",
+    "tests/upgrade_transport/blocked_dns_helper.py": "49eb5cdcaa3db1ce6d24762007846bf1348a7fc68c93a2b9618853c0de3747c4",
+    "tests/upgrade_transport/test_owned_transport.py": "34a3ba0cf63149259eca99913f3c31a45946b53e291bbee7cc530542e675e4db"
+  },
+  "milestone": "U2-A",
+  "mode": "source_only_local_double",
+  "primary_schema_sources": {
+    "REST_pages": {
+      "create-a-named-sandbox-2": {
+        "official_markdown_sha256": "4ce908c672a19de66a84c8ccaf0b5159e5bebdda1bfa1750a158abd0d431711c",
+        "url": "https://vercel.com/docs/rest-api/sandboxes/create-a-named-sandbox-2"
+      },
+      "delete-a-sandbox": {
+        "official_markdown_sha256": "828ee69508d396c4aca2b65eb1d8180b01e6754d7b32ecea46e4af7a590eb616",
+        "url": "https://vercel.com/docs/rest-api/sandboxes/delete-a-sandbox"
+      },
+      "execute-a-command": {
+        "official_markdown_sha256": "60e714799cac8d8cab938231252ca303663011712b96ba9af17136a1c0459c8c",
+        "url": "https://vercel.com/docs/rest-api/sandboxes/execute-a-command"
+      },
+      "get-a-command": {
+        "official_markdown_sha256": "d96bcf687fc3c3a829819cb7befee54ac4cbaca52f35caf7c73bf5b860774bdd",
+        "url": "https://vercel.com/docs/rest-api/sandboxes/get-a-command"
+      },
+      "get-a-named-sandbox": {
+        "official_markdown_sha256": "50ad3645e63093acf1b76d9f053af2c78a6f08f379d7b1b3ef9b7ab015efdc92",
+        "url": "https://vercel.com/docs/rest-api/sandboxes/get-a-named-sandbox"
+      },
+      "get-a-session": {
+        "official_markdown_sha256": "80b9f9c0d4cbf98184aa0526c21ef5622cc140fb19c2de6a426a959d5779e1d7",
+        "url": "https://vercel.com/docs/rest-api/sandboxes/get-a-session"
+      },
+      "read-a-file": {
+        "official_markdown_sha256": "1e6661aa5b03020c90ab1ca4604710f1d389550b0b9a1397831c22c07326a83d",
+        "url": "https://vercel.com/docs/rest-api/sandboxes/read-a-file"
+      },
+      "stop-a-session": {
+        "official_markdown_sha256": "d73afd53876541b077612bbde6bd4088291cff6c07310e03fefb012507c922e1",
+        "url": "https://vercel.com/docs/rest-api/sandboxes/stop-a-session"
+      },
+      "stream-command-logs": {
+        "official_markdown_sha256": "952fcea8d3aedb0d89c51d286f3b61295e2dbc241e954e4ba09ae54637c16c25",
+        "url": "https://vercel.com/docs/rest-api/sandboxes/stream-command-logs"
+      },
+      "write-files": {
+        "official_markdown_sha256": "05036c2e2cfcd9b0d6e66524c653995ef11bc7eb285f93d58f3230ec48552bdf",
+        "url": "https://vercel.com/docs/rest-api/sandboxes/write-files"
+      }
+    },
+    "SDK_commit": "31244aa3280dc3fdca0680933f85971570d73d2d",
+    "SDK_files": {
+      "api-client/api-client.ts": "6e3c68df2ed9cc79c82d518b66587906263638a50e3864483bddc3a8eabe00a8",
+      "api-client/file-writer.ts": "5bd79c79465b48b7b083cb7c9469cbdcd7186e46a579408942a18ec22aff0ab8",
+      "api-client/validators.ts": "24e551ff7e244876f6aee2aae632f23fc47ed2d8a2129e106044bb45b49a6845"
+    }
+  },
+  "published_v1_commit": "1954e1bef1ecfdf4c8d9e82aec2d2a2fd3898265",
+  "retained_historical_U1_manifest_sha256": "5f85e76beca509c4d5e392c67bb89aa1458dab82d40c11a79ed6882c076b76c3",
+  "schema_version": 1,
+  "self_hash": "excluded",
+  "v1_manifest_sha256_unchanged": {
+    "evaluation/frozen.json": "14e1c6d5f476550fa308e91433e24718e9e0a53801441dc25675cfb658eea34c",
+    "evaluation/trusted.json": "70fed424125df3b9bb02b33ede90fadb056358d5d56949ebb1cac241807fc86e"
+  },
+  "versions": {
+    "U1_code_version_unchanged": "4d0184eb884bb80125c72fc1e340646208088cc7da2280b12856d1f9f4147c55",
+    "U1_dataset_sha256": "6495cdb2f3e5feb8d6008c0155efe9b9e640e38d426ee679258c0f020985c803",
+    "U1_prompt_sha256_unchanged": "db6f22942b2c715ca611049c0bf6423295f997a1c396b913bd7450c58dd5a181",
+    "sandbox_code_version": "cc84b7615f87ccbb62f51eacd05ac014dbd4bf86dbda1002ebd4181a4db17035",
+    "sandbox_config_sha256": "d0f5010028efb85c4df8f26fe35ddf589fffbf236415e01329ec47c612c9eb44",
+    "sandbox_version": "2.2-u2a",
+    "schema_version": "sandbox-rest-contract-1"
+  }
+}

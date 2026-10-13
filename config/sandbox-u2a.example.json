@@ -1,0 +1,17 @@
+{
+  "schema_version": "sandbox-rest-contract-1",
+  "mode": "local-double",
+  "external_enabled": false,
+  "live_project_id": null,
+  "live_team_id": null,
+  "verified_image": null,
+  "image_validation_receipt": null,
+  "separate_sandbox_authorization": null,
+  "compute_allocation_inr": 0,
+  "persistent": false,
+  "network_policy": {"mode": "deny-all"},
+  "ports": [],
+  "guest_env": {},
+  "expected_runtime": {"java_major": 17, "java": "/usr/bin/java", "javac": "/usr/bin/javac", "cwd": "/vercel/sandbox"},
+  "note": "No image or account is verified. The synthetic identity exists only inside the explicit local-double factory. Gateway authorization does not grant Sandbox access."
+}
